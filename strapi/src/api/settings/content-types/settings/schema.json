@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings2",
+  "info": {
+    "singularName": "settings",
+    "pluralName": "settings2",
+    "displayName": "配置"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
